@@ -1,7 +1,6 @@
 import { Body, Controller, Post, Put } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { AuthSigninDTO, AuthSignupDTO, NewPasswordDTO } from './dto/auth-dto';
-import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { ApiCreateResponseCustom } from 'src/shared/decorators/swagger.decorator';
 
 @Controller('auth')
